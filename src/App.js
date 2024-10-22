@@ -10,7 +10,7 @@ const App = () => {
   const [isCallActive, setIsCallActive] = useState(false);
   const [havePermissions, setHavePermissions] = useState(false);
   const [socket, setSocket] = useState(null);
-  const [apiKey] = useState('SzlSYU0gB4W7zujVlGwjcfhykV0WzETD9VKnm7GFfWI1vSFA');
+  const [apiKey] = useState('________INSERT API KEY_________');
   const [connectionStatus, setConnectionStatus] = useState('disconnected');
   const [apiResponses, setApiResponses] = useState([]);
   const [logs, setLogs] = useState([]);
